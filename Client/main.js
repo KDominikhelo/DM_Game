@@ -27,7 +27,7 @@ class Player {
 let currentPlayer;
 
 // A socket.io kapcsolat
-const socket = io('https://8080-cs-781916595840-default.cs-europe-west4-bhnf.cloudshell.dev/');
+const socket = io();
 
 // A szerverről kapott játékosokat tároló tömb
 const players = [];
